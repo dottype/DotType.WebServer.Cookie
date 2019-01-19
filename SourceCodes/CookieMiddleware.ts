@@ -1,10 +1,12 @@
 
-import { Exception } from "../../Packages/DotType/Exceptions/Exception";
+import { Exception } from "dottype/Exceptions/Exception";
 import { CookiesCollection } from "./CookiesCollection";
 import { Cookie } from "./Cookie";
-import { IMiddleware } from "../../DotType.WebServer/Interfaces/IMiddleware";
-import { IHttpContext } from "../../DotType.WebServer/Interfaces/IHttpContext";
-import { NameValueObject } from "../../Packages/DotType.Utils/NameValueObject";
+import { IMiddleware } from "dottype.webserver/Interfaces/IMiddleware";
+import { IHttpContext } from "dottype.webserver/Interfaces/IHttpContext";
+import { NameValueObject } from "dottype.utils/NameValueObject";
+import "./Extensions/DotType.WebServer.Cookie.IServerRequestExtensions"
+import "./Extensions/DotType.WebServer.Cookie.IServerResponseExtensions"
 
 export class CookieMiddleware implements IMiddleware
 {

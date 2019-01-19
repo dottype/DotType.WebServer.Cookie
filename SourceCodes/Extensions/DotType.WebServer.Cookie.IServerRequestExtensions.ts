@@ -1,9 +1,9 @@
 import { CookiesCollection } from "../CookiesCollection";
+import "dottype.webserver/Interfaces/IServerRequest"
 
-
-declare module "../../../DotType.WebServer/Response"
+declare module "dottype.webserver/Interfaces/IServerRequest"
 {
-    export interface Response 
+    export interface IServerRequest 
     {
         /**
          * Gets the Request Cookies

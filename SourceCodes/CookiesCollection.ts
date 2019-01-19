@@ -1,5 +1,5 @@
 import { Cookie } from "./Cookie";
-import { Collection } from "../../Packages/DotType/Collections/Collection<T>";
+import { Collection } from "dottype/Collections/Collection<T>";
 import { CookieOptions } from "./CookieOptions";
 
 /** Class that represents a collection of cookies. */

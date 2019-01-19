@@ -1,0 +1,19 @@
+{
+    "name": "dottype.webserver.cookie",
+    "version": "0.0.1",
+    "description": "Cookie middleware for DotType.WebServer",
+    "author": "DotType",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dottype/DotType.WebServer.Cookie.git"
+    },
+    "dependencies": {
+        "dottype": "0.0.12",
+        "dottype.utils": "0.0.1",
+        "dottype.webserver": "0.0.5"
+    },
+    "devDependencies": {
+        "@types/node": "^10.12.18"
+    }
+}

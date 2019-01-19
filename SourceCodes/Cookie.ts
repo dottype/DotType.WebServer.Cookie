@@ -1,5 +1,5 @@
 import { SameSiteMode } from "./SameSiteMode";
-import { ArgumentNullException } from "../../Packages/DotType/Exceptions/ArgumentNullException";
+import { ArgumentNullException } from "dottype/Exceptions/ArgumentNullException";
 
 export class Cookie
 {
