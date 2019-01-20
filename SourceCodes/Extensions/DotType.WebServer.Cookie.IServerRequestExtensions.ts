@@ -1,7 +1,7 @@
 import { CookiesCollection } from "../CookiesCollection";
-import "dottype.webserver/Interfaces/IServerRequest"
+import "dottype.hosting/Interfaces/IServerRequest"
 
-declare module "dottype.webserver/Interfaces/IServerRequest"
+declare module "dottype.hosting/Interfaces/IServerRequest"
 {
     export interface IServerRequest 
     {

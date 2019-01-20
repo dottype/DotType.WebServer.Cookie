@@ -3,7 +3,7 @@ import { Exception } from "dottype/Exceptions/Exception";
 import { CookiesCollection } from "./CookiesCollection";
 import { Cookie } from "./Cookie";
 import { IMiddleware } from "dottype.webserver/Interfaces/IMiddleware";
-import { IHttpContext } from "dottype.webserver/Interfaces/IHttpContext";
+import { IHttpContext } from "dottype.hosting/Interfaces/IHttpContext";
 import { NameValueObject } from "dottype.utils/NameValueObject";
 import "./Extensions/DotType.WebServer.Cookie.IServerRequestExtensions"
 import "./Extensions/DotType.WebServer.Cookie.IServerResponseExtensions"
@@ -11,7 +11,7 @@ import "./Extensions/DotType.WebServer.Cookie.IServerResponseExtensions"
 export class CookieMiddleware implements IMiddleware
 {
     public readonly Name: string = "Cookie Middleware";
-    public readonly Version: string = "0.0.1-alpha";
+    public readonly Version: string = "0.0.2-alpha";
     public Order: number = -10000; //Should be first
     
     public async OnRequestAsync(httpContext: IHttpContext, caller: IMiddleware): Promise<void>

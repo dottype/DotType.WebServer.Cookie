@@ -1,6 +1,6 @@
 {
     "name": "dottype.webserver.cookie",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Cookie middleware for DotType.WebServer",
     "author": "DotType",
     "license": "Apache-2.0",
@@ -10,8 +10,9 @@
     },
     "dependencies": {
         "dottype": "0.0.12",
+        "dottype.hosting": "0.0.1",
         "dottype.utils": "0.0.1",
-        "dottype.webserver": "0.0.5"
+        "dottype.webserver": "0.0.6"
     },
     "devDependencies": {
         "@types/node": "^10.12.18"
